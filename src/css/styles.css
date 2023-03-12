@@ -85,7 +85,7 @@ main:after {
 .carousel {
     position: fixed;
     top: 0;
-        left: 0;
+    left: 0;
     width: 100%;
     z-index: -1;
 }
@@ -94,13 +94,12 @@ main:after {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    /* não deixa a imagem ficar distorcida*/
     display: none;
 }
 
 .carousel-image.actived {
     display: block;
-    animation: mudarImagem 0.7s;
+    animation: changeImage 0.7s;
 }
 
 @keyframes changeImage {
