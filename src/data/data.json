@@ -1,8 +1,13 @@
-[
-    { "_id": "1", "source": "./src/images/tlou-1.jpg", "alternateText": "Ellie and Joel hugging"},
-    { "_id": "2", "source": "./src/images/tlou-2.jpg", "alternateText": "The Last of Us Characters"},
-    { "_id": "3", "source": "./src/images/tlou-3.jpg", "alternateText": "Joel looking out the window"},
-    { "_id": "4", "source": "./src/images/tlou-4.jpg", "alternateText": "Ellie and Tess looking at each other"},
-    { "_id": "5", "source": "./src/images/tlou-5.jpg", "alternateText": "Ellie and Joel walking through a destroyed city"},
-    { "_id": "6", "source": "./src/images/tlou-6.jpg", "alternateText": "Joel holding a flashlight on in his right hand"}
-]
+{
+    "name" : "The Last of Us",
+    "description" : "The Last of Us é uma série distópica da HBO baseada na franquia de jogos de videogame de mesmo nome criada por Neil Druckmann. O drama narra um futuro pandêmico que foi devastador para humanidade, deixando os seres humanos à beira da extinção.",
+    "logo" : { "source": "./src/images/logo.png", "alternateText": "The Last Of Us icon"},
+    "gallery" : [
+        { "source": "./src/images/tlou-1.jpg", "alternateText": "Ellie and Joel hugging"},
+        { "source": "./src/images/tlou-2.jpg", "alternateText": "The Last of Us Characters"},
+        { "source": "./src/images/tlou-3.jpg", "alternateText": "Joel looking out the window"},
+        { "source": "./src/images/tlou-4.jpg", "alternateText": "Ellie and Tess looking at each other"},
+        { "source": "./src/images/tlou-5.jpg", "alternateText": "Ellie and Joel walking through a destroyed city"},
+        { "source": "./src/images/tlou-6.jpg", "alternateText": "Joel holding a flashlight on in his right hand"}
+    ]
+}
