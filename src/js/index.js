@@ -1,14 +1,35 @@
-const carouselButtons = document.querySelectorAll(".button");
-const carouselImages = document.querySelectorAll(".carousel-image");
+const carousel = document.querySelector(".carousel");
+const carouselButtons = document.querySelector(".carousel-buttons");
 
-carouselButtons.forEach((element, index) => {
-  element.addEventListener("click", () => {
-    disableSelectedButton();
-    element.classList.add("selected");
-    hideActiveImage();
-    showBackgroundImage(index);
+fetch("../src/data/data.json")
+  .then((response) => {
+    return response.json()
+  }).then((data) => {
+    data.forEach((d, index ) => {
+      let image = document.createElement("img");
+      image.src = d.source;
+      image.alt = d.alternateText;
+      image.classList.add("carousel-image");
+
+      let button = document.createElement("button");
+      button.classList.add("button");
+
+      if(index == 0) {
+        image.classList.add("actived")
+        button.classList.add("selected")
+      }
+
+      button.addEventListener("click", () => {
+        disableSelectedButton();
+        button.classList.add("selected");
+        hideActiveImage();
+        showBackgroundImage(index);
+      });
+
+      carousel.appendChild(image);
+      carouselButtons.appendChild(button);
+    })
   });
-});
 
 function disableSelectedButton() {
   const button = document.querySelector(".selected");
@@ -21,5 +42,6 @@ function hideActiveImage() {
 }
 
 function showBackgroundImage(index) {
+  const carouselImages = document.querySelectorAll(".carousel-image");
   carouselImages[index].classList.add("actived");
 }

@@ -1,0 +1,8 @@
+[
+    { "_id": "1", "source": "./src/images/tlou-1.jpg", "alternateText": "Ellie and Joel hugging"},
+    { "_id": "2", "source": "./src/images/tlou-2.jpg", "alternateText": "The Last of Us Characters"},
+    { "_id": "3", "source": "./src/images/tlou-3.jpg", "alternateText": "Joel looking out the window"},
+    { "_id": "4", "source": "./src/images/tlou-4.jpg", "alternateText": "Ellie and Tess looking at each other"},
+    { "_id": "5", "source": "./src/images/tlou-5.jpg", "alternateText": "Ellie and Joel walking through a destroyed city"},
+    { "_id": "6", "source": "./src/images/tlou-6.jpg", "alternateText": "Joel holding a flashlight on in his right hand"}
+]
