@@ -16,4 +16,4 @@ Este projeto teve como objetivo realizar um site com carrousel com a temática d
 ![image](https://user-images.githubusercontent.com/80559882/224579493-62b07ac3-7c3d-4527-adfa-147cf292f248.png)
 
 ## ⚖️ License 
-This project is under the MIT license. See the archive LICENSE for more details.
+This project is under the MIT license. See the archive [LICENSE](https://github.com/MatheusPrudente/carrossel-dev-em-dobro/blob/main/LICENSE.md) for more details.
